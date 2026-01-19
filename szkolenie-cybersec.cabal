@@ -70,8 +70,8 @@ executable szkolenie-cybersec
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4,
-                      pandoc ^>=3,
+    build-depends:    base,
+                      pandoc,
                       text,
                       blaze-html
 
